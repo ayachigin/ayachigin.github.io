@@ -33,7 +33,8 @@ body {
 }
 
 .footer .container {
-  width: 930px;
+  width: auto;
+  max-width: 930px;
 }
 
 /* Custom page CSS
@@ -46,5 +47,5 @@ body {
   padding: 0 15px;
 }
 .container .text-muted {
-  margin: 20px 0;
+  text-align: center;
 }
