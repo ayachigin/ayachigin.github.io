@@ -49,3 +49,7 @@ body {
 .container .text-muted {
   text-align: center;
 }
+
+.container .youtube-iframe {
+  height: 315px;
+}
