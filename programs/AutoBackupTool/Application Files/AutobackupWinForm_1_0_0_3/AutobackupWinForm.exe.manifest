@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AutobackupWinForm.exe" version="1.0.0.3" publicKeyToken="530ebde71e417e45" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AutobackupWinForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AutobackupWinForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+         Windows のユーザー アカウント制御のレベルを変更するには、
+         requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+        requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutobackupWinForm.exe" size="37360">
+      <assemblyIdentity name="AutobackupWinForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>arjhQCoOxuzQ3GQU4hcROcUoqBcbPqduSZlo2M99Vqk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="is\AutobackupWinForm.resources.dll" size="8192">
+      <assemblyIdentity name="AutobackupWinForm.resources" version="1.0.0.0" language="is" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>t7Zm3ZCIolhcrqhub6MGHdPvT192m6f1WTm1dVhPwX8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\AutobackupWinForm.resources.dll" size="11264">
+      <assemblyIdentity name="AutobackupWinForm.resources" version="1.0.0.0" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8owkq4B0az7d+wa4/W/ME3Fgt3jVDDhl0kVjHK5iAU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AutobackupWinForm.exe.config" size="1068">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ar9Lfwsu63ni2gUT8FUfHooJtvslPw6D/PHM4AEDk2Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9FHCCTK\tetsuroh" issuerKeyHash="5148084d544a69b699cf8ac18fbf45da5ce3eb0b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5TLb+VxZIF93Ju+ajLrSPYTi0p94I5lt0uyrOK3NBXc=</DigestValue></Reference></SignedInfo><SignatureValue>SecxAqcUYoVAtjGTqrfd9xP9oRbp+9POKStoFU3MFzdewCVHhmzcyPMsQPZ++nXU/mcbp5ISG6rTgy9mSvsmiKhfNtdYIE2ISnea5PKe4lwqhd7SBK0wSY/i4pJKrseatTkG6fh6uoZ80PJlTBA4XIBQC3k8KsXvF5e+K2JAZqs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qRTolZ+foZOifQXrwruxEXd+N6W7G+TtJxm6YQGf34NIWaJLcn8TXsCTziPnfcr1yeoCRVxXAuiNTMoebNn8dPuUC95v6/lF74IPZJWHB9jp00VetYcZRkSeIpfFPwh9pUzsY3Fmh2paT10xIY8s8ECZmQg2IT/8lEoIG+iAgDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7705cdad38abecd26d9923789fd2e2843dd2ba8c9aef26775f20595cf9db32e5" Description="" Url=""><as:assemblyIdentity name="AutobackupWinForm.exe" version="1.0.0.3" publicKeyToken="530ebde71e417e45" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9FHCCTK\tetsuroh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CBSpw88jtd9r+dbC0lEbj4R/kkwHFbpsFQPT2xzim7Q=</DigestValue></Reference></SignedInfo><SignatureValue>YFK6xeFxGpxiUUBRVMzfk15+jpfoQdb46gWQuqoidyvvVa87ct+AifMWus1DoRuapRs/iZ9WnZSBegMDfWpFTKyCDX5yqcTC/Lo4xeoTintwC6D0bldYt5vIyYAuoKuijDmHfRVssHZJ7BXhfqe9jDuXrNtBvpKuSpTt9yJXHzo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qRTolZ+foZOifQXrwruxEXd+N6W7G+TtJxm6YQGf34NIWaJLcn8TXsCTziPnfcr1yeoCRVxXAuiNTMoebNn8dPuUC95v6/lF74IPZJWHB9jp00VetYcZRkSeIpfFPwh9pUzsY3Fmh2paT10xIY8s8ECZmQg2IT/8lEoIG+iAgDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQf5dSGR5/uZNPt254VxcP+TANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtADkARgBIAEMAQwBUAEsAXAB0AGUAdABzAHUAcgBvAGgwHhcNMTcwNjE1MTIzNTAxWhcNMTgwNjE1MTgzNTAxWjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtADkARgBIAEMAQwBUAEsAXAB0AGUAdABzAHUAcgBvAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKkU6JWfn6GTon0F68K7sRF3fjeluxvk7ScZumEBn9+DSFmiS3J/E17Ak84j533K9cnqAkVcVwLojUzKHmzZ/HT7lAveb+v5Re+CD2SVhwfY6dNFXrWHGUZEniKXxT8IfaVM7GNxZodqWk9dMSGPLPBAmZkINiE//JRKCBvogIA1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAUmO9i7fAdymLXVbW1dXHL+zd6NB+rzxrOp5bufPRYhK2FZFxiVRux3QGgzxPiwlfb2VhNCiseIW82eawlG5W3IgyBBXhOv9gkHA4WHGaPncc2MQoFkqTQvpLLehVOYf34Nkx5rMO5VdxE3ddIdqjouj6xVYldHC22lXDl1wWPy4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
