@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hachimitsu Session - Auto Backup Tool</title>
+
+    <!-- web font -->
+    <link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+
+    <!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-37331241-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="js/tracking.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/default.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header container">
+        <h1><a href="./">Hachimitsu Session</a>　<small>Auto Backup Tool</small></h1>
+      </header>
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="./">Home</a> </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">MMD<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="mmd_arianne.html">【MMDモデル】アリアンナさん</a></li>
+              <li><a href="mmd_urako.html">【MMDモデル】裏子たゃん</a></li>
+              <li><a href="mmd_yumeko.html">【MMDモデル】夢子ちゃん</a></li>
+            </ul>
+          </li>
+          <li><a href="./music.html">Music</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Software<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="tourabu.html">とうらぶえくすてんしょん【chrome拡張機能】</a></li>
+              <li><a href="auto-save.html">Win 自動保存【お絵かき支援ツール】</a></li>
+              <li><a href="auto-save-mac.html">Mac 自動保存【お絵かき支援ツール】</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="/archive.html">Archive</a></li> -->
+        </ul></div>
+      </nav>
+
+      <section class="container-fluid">
+        <div class="row">
+    <article class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+      <h2 id="自動バックアップツール">自動バックアップツール</h2>
+<p>指定したフォルダにある、特定の拡張子のファイルが保存されるたびにバックアップを取ります。</p>
+<p><img src="images/autobackup.png" class="img-thumbnail"><br /></p>
+<p><a href="#利用規約">利用規約</a>を読んで同意できた方のみご使用ください。</p>
+<p><a class="btn btn-success" href="programs/AutoBackupTool/setup.exe">利用規約に同意してダウンロード【setup.exe】</a></p>
+<h2 id="インストール方法">インストール方法</h2>
+<p>setup.exeを実行するだけ。 WindowsによってPCが保護されましたというダイアログが出ることがあります。 詳細情報→実行を選んでインストールしてください。</p>
+<h2 id="使い方">使い方</h2>
+<p>このソフトは指定したフォルダの変更を監視し、作成されたり変更されたファイルのバックアップをとります。 バックアップをとるのは指定した拡張子のファイルだけです。 例えばSAIなら[sai]クリップスタジオなら[clip]が拡張子です。 拡張子は改行区切りで入力してください。</p>
+<p>監視フォルダはデフォルトでマイピクチャになっています。変更もできます。 バックアップ先はデフォルトでマイドキュメントのAutobackupFilesというフォルダです。変更もできます。</p>
+<p>画像の自動リサイズはいまはpngだけ対応してます。 リサイズした画像はバックアップ先の中のthumbnailsフォルダに入ります。 リサイズした画像は同じ名前のものは上書きされます。</p>
+<h2 id="検討中の機能">検討中の機能</h2>
+<ul>
+<li>Twitterの画像劣化対策に1px透過してリサイズする機能</li>
+<li>複数のフォルダを監視する機能（なるべくシンプルにしたいのでちょっと微妙）</li>
+</ul>
+<h2 id="利用規約">利用規約</h2>
+<p>A. 本ソフトウェアは Everyone’sWare です。このソフトを手にした一人一人が、 ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。</p>
+<p>A-1. フリーウェアです。作者からは使用料等を要求しません。 A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。 A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。 A-4. 変更したものや部分的に使用したものは、あなたのものになります。 公開する場合は、あなたの名前の下で行って下さい。</p>
+<p>B. このソフトを利用することによって生じた損害等について、作者は 責任を負わないものとします。各自の責任においてご利用下さい。</p>
+<p>C. 著作者人格権は あやちぎん に帰属します。著作権は放棄します。</p>
+<p>D. 以上の３項は、ソース・実行バイナリの双方に適用されます。</p>
+<h2 id="ソースコード">ソースコード</h2>
+<p>Githubで公開してます。</p>
+<p><a class="btn btn-primary" href="https://github.com/ayachigin/auto-save">お絵かき自動保存ツールのソース</a></p>
+    </article>
+</div>
+
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <article class="col-xs-6">
+            <p>
+              <h3>あやちぎん</h3>
+              <img src="images/doticon.png" alt="あやちぎんのアイコン" class="img-thumbnail"><br>
+              <br>
+              音楽作ったり絵を描いたりプログラミングしたりするひと<br>
+
+            </p>
+          </article>
+          <article class="col-xs-6">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="https://twitter.com/AyachiGin">Twitter</a></li>
+              <li><a href="https://soundcloud.com/yachiin">SoundCloud</a></li>
+              <li><a href="http://www.pixiv.net/member.php?id=2672548">Pixiv</a></li>
+              <li><a href="https://www.youtube.com/channel/UCIcLYCFQBB-4QOxI2aLWc-Q">YouTube</a></li>
+            </ul>
+          </article>
+        </div>
+        <p class="text-muted">Site proudly generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
