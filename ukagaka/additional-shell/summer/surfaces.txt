@@ -1,0 +1,202 @@
+charset,Shift_JIS
+
+descript
+{
+version,1
+}
+
+
+//=========================================================================
+// ベースレイヤーと当たり判定
+//=========================================================================
+surface0-9,11-17
+{
+element0,base,surface0000.png,0,0
+
+collisionex0,head,rect,205,13,303,52
+collisionex1,face,polygon,219,67,240,58,270,57,264,88,238,86,223,90
+collisionex2,mouse,polygon,226,94,241,90,262,94,246,111
+collisionex3,neck,polygon,249,112,272,107,272,125,249,131
+collisionex4,belly,polygon,205,191,265,205,254,246,193,233
+collisionex5,hand,polygon,327,320,335,342,362,338,349,313
+collisionex6,hand2,polygon,174,240,188,239,191,256,165,257
+collisionex7,foot,polygon,4,282,54,278,58,301,4,315
+collisionex8,arm,polygon,287,182,313,172,339,306,322,310
+collisionex9,arm2,polygon,198,182,176,233,190,234,194,220,201,189
+}
+
+//=========================================================================
+// まゆげ
+//=========================================================================
+surface0,4,5,8,11,16
+{
+element1,overlay,surface1300.png,0,0
+}
+// 笑い
+surface1,2
+{
+element1,overlay,surface1301.png,0,0
+}
+// 驚き
+surface3,15
+{
+element1,overlay,surface1302.png,0,0
+}
+// 困り
+surface6,7,14,17
+{
+element1,overlay,surface1303.png,0,0
+}
+// 素
+surface9,12,13
+{
+element1,overlay,surface1304.png,0,0
+}
+
+//=========================================================================
+// おくち
+//=========================================================================
+// 口パク
+surface0,3-8,11,14-17
+{
+animation300.interval,runonce+talk
+animation300.pattern1,overlay,1000,0,0,0
+animation300.pattern2,overlay,1002,80,0,0
+animation300.pattern3,overlay,1003,120,0,0
+animation300.pattern4,overlay,1000,80,0,0
+}
+
+// 笑い口パク
+surface1,2
+{
+animation301.interval,runonce+talk
+animation301.pattern1,overlay,1001,0,0,0
+animation301.pattern2,overlay,1002,80,0,0
+animation301.pattern3,overlay,1003,120,0,0
+animation301.pattern4,overlay,1001,80,0,0
+}
+// 素口パク
+surface9,12,13
+{
+animation300.interval,runonce+talk
+animation300.pattern1,overlay,1004,0,0,0
+animation300.pattern2,overlay,1002,80,0,0
+animation300.pattern3,overlay,1003,120,0,0
+animation300.pattern4,overlay,1004,80,0,0
+}
+
+//=========================================================================
+// おめめ
+//=========================================================================
+// 通常眼
+surface0,4,6,7
+{
+// 瞬き
+animation200.interval,runonce+random,6
+animation200.pattern0,overlay,1400,0,0,0
+animation200.pattern1,overlay,1400,80,0,0
+animation200.pattern2,overlay,1404,120,0,0
+animation200.pattern3,overlay,1400,80,0,0
+}
+
+// 目閉じにこ
+surface1,14,17
+{
+animation201.interval,runonce
+animation201.pattern1,overlay,1405,0,0,0
+}
+
+// にこにこ
+surface2, 16
+{
+// 瞬き
+animation201.interval,runonce+random,6
+animation201.pattern1,overlay,1402,0,0,0
+animation201.pattern2,overlay,1402,80,0,0
+animation201.pattern3,overlay,1404,120,0,0
+animation201.pattern4,overlay,1402,80,0,0
+}
+
+// びっくり
+surface3,15
+{
+// 瞬き
+animation203.interval,runonce+random,6
+animation203.pattern1,overlay,1403,0,0,0
+animation203.pattern2,overlay,1403,80,0,0
+animation203.pattern3,overlay,1404,120,0,0
+animation203.pattern4,overlay,1403,80,0,0
+}
+
+// 目閉じ
+surface5,13
+{
+animation204.interval,runonce
+animation204.pattern0,overlay,1404,0,0,0
+}
+
+// 目逸らし
+surface8,9,11
+{
+// 瞬き
+animation204.interval,runonce+random,6
+animation204.pattern0,overlay,1401,0,0,0
+animation204.pattern1,overlay,1401,80,0,0
+animation204.pattern2,overlay,1404,120,0,0
+animation204.pattern3,overlay,1401,80,0,0
+}
+
+// 無表情
+surface12
+{
+// 瞬き
+animation204.interval,runonce+random,6
+animation204.pattern0,overlay,1406,0,0,0
+animation204.pattern1,overlay,1406,80,0,0
+animation204.pattern2,overlay,1404,120,0,0
+animation204.pattern3,overlay,1406,80,0,0
+}
+
+//=========================================================================
+// 赤面
+//=========================================================================
+surface4,5,7,11,15-17
+{
+element2,overlay,surface1100.png,0,0
+}
+
+//=========================================================================
+//  髪型
+//=========================================================================
+
+// いつもの髪型
+surface.append0-9,11-17
+{
+animation100.interval,bind
+animation100.pattern0,overlay,1200,0,0,0
+
+// ショートカチューシャ
+animation101.interval,bind
+animation101.pattern0,overlay,1201,0,0,0
+
+// 姫カット
+animation102.interval,bind
+animation102.pattern0,overlay,1202,0,0,0
+
+// ボブ
+animation103.interval,bind
+animation103.pattern0,overlay,1203,0,0,0
+
+// カンカン帽
+animation104.interval,bind
+animation104.pattern0,overlay,1203,0,0,0
+animation104.pattern1,overlay,1204,0,0,0
+
+// ポニーテール
+animation105.interval,bind
+animation105.pattern0,overlay,1205,0,0,0
+
+// 髪飾り
+animation106.interval,bind
+animation106.pattern0,overlay,1206,0,0,0
+}
