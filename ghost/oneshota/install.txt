@@ -2,3 +2,4 @@ charset, Shift_JIS
 type,ghost
 name,Ç®ÇÀÇµÇÂÇΩÇ≤Å[Ç∑Ç∆
 directory,oneshota
+robots,noindex
