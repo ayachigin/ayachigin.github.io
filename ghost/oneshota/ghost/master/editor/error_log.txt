@@ -1,0 +1,42 @@
+--------------------------------------------------------------
+エラー発生日時: 2020年5月1日 18:14:52
+バージョン: 1.3.1
+System.IO.FileNotFoundException: ファイル 'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat' が見つかりませんでした。
+ファイル名 'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat' です。'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   場所 System.IO.StreamReader..ctor(String path)
+   場所 Satolist.UkadocLinks.AddUkadocProfile(String fileName)
+   場所 Satolist.RootWindow..ctor(String[] cmd, String version, String testVersion, Boolean isTestVersion)
+   場所 Satolist.Program.Main()
+--------------------------------------------------------------
+--------------------------------------------------------------
+エラー発生日時: 2020年5月1日 18:15:27
+バージョン: 1.3.1
+System.IO.FileNotFoundException: ファイル 'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat' が見つかりませんでした。
+ファイル名 'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat' です。'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   場所 System.IO.StreamReader..ctor(String path)
+   場所 Satolist.UkadocLinks.AddUkadocProfile(String fileName)
+   場所 Satolist.RootWindow..ctor(String[] cmd, String version, String testVersion, Boolean isTestVersion)
+   場所 Satolist.Program.Main()
+--------------------------------------------------------------
+--------------------------------------------------------------
+エラー発生日時: 2020年5月1日 18:16:11
+バージョン: 1.3.1
+System.IO.FileNotFoundException: ファイル 'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat' が見つかりませんでした。
+ファイル名 'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat' です。'C:\Users\tetsuroh\Dropbox\ssp_2_2_92f\ghost7\oneshota\ghost\master\editor\data\UkadocShioriEvent.dat'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   場所 System.IO.StreamReader..ctor(String path)
+   場所 Satolist.UkadocLinks.AddUkadocProfile(String fileName)
+   場所 Satolist.RootWindow..ctor(String[] cmd, String version, String testVersion, Boolean isTestVersion)
+   場所 Satolist.Program.Main()
+--------------------------------------------------------------

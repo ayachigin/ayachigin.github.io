@@ -1,7 +1,8 @@
 file,delete.txtd74a9b5567a896c05bfa09a5b017a1d0size=1300
 file,developer_options.txtac170ee3da4c09fdec70f7ef0d70fea6size=374
+file,Git Bash.lnk68d0acd707f51f0bc5aec1b54e7ffd1dsize=1817
 file,install.txtcf67e345daa7e8ea1023da222e8802a7size=75
-file,readme.txtee66f444f0137abbcbb21d6cf887ce72size=568
+file,readme.txt0f64a6c2fc50205b77c82ec0844d6f52size=730
 file,ghost/master/descript.txt1ea1e869777ec67d435ca6228101fd8esize=655
 file,ghost/master/dicAnchor.txta805304a582d3f3e12d722a156a9ecfasize=11122
 file,ghost/master/dic_advanced.txt0a6281d4bef6bd722426b2a14d2ddd7dsize=4538
@@ -14,7 +15,6 @@ file,ghost/master/replace.txt9f711b1f22b89142d5bb2c20c7e2bddasize=181
 file,ghost/master/replace_after.txtd41d8cd98f00b204e9800998ecf8427esize=0
 file,ghost/master/satolist.dll1da8aeaddbdd064ba9a9c1eb40275adcsize=292352
 file,ghost/master/satori.dll16752c1548945960595ff1a3deda6d09size=684032
-file,ghost/master/satorite.exe2e5f3d7c569f579ef0e432023a198d38size=692224
 file,ghost/master/satori_conf.txt677f89b9ca8c9004063037c7aecaa122size=641
 file,ghost/master/satori_license.txt078ffc36f3374648bf523ae197f4765csize=944
 file,ghost/master/dic_default/dic_menu.txtbcd74b2774b08dced3e77d204aa2340asize=2288
