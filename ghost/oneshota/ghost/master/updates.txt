@@ -1,5 +1,5 @@
-file,delete.txtd74a9b5567a896c05bfa09a5b017a1d0size=1300
-file,developer_options.txtac170ee3da4c09fdec70f7ef0d70fea6size=374
+file,delete.txt6644a268e0858113cb5cb656281974b4size=1312
+file,developer_options.txt0738d5d812dd8421bf05256736da7e48size=403
 file,Git Bash.lnk68d0acd707f51f0bc5aec1b54e7ffd1dsize=1817
 file,install.txt73fceed2e8871a1a5829e2ccdc3d0a67size=91
 file,readme.txt0f64a6c2fc50205b77c82ec0844d6f52size=730

@@ -7,3 +7,4 @@ ghost\master\editor\,nonar,noupdate
 .git\,nonar,noupdate
 .gitignore,nonar,noupdate
 ghost/master/dic_satolist.txt,nonar,noupdate
+Git Bash.lnk,nonar,noupdate

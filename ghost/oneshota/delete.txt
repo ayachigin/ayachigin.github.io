@@ -36,3 +36,4 @@ ghost\master\editor\data\ssleay32.dll
 ghost\master\editor\data\WebKit.dll
 ghost\master\editor\data\error_log.txt
 ghost\master\editor\data\LICENSE.txt
+Git Bash.lnk
