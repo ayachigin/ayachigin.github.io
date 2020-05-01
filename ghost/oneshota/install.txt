@@ -1,4 +1,4 @@
 charset, Shift_JIS
 type,ghost
-name,Ç≥Ç∆ÇËÇ∑Ç∆ÇÃÇ≥ÇÒÇ’ÇÈÇ≤Å[Ç∑Ç∆
-directory,editor_sample
+name,Ç®ÇÀÇµÇÂÇΩÇ≤Å[Ç∑Ç∆
+directory,oneshota
