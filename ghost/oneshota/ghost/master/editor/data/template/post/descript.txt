@@ -1,0 +1,13 @@
+charset,Shift_JIS
+
+craftman,
+craftmanw,
+craftmanurl,
+
+name,さとりすとテンプレートゴースト
+type,ghost
+
+sakura.name,ちぇっか
+kero.name,てすた
+
+shiori,satori.dll

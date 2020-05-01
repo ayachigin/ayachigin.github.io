@@ -1,0 +1,267 @@
+自動アンカー辞書。
+このファイルに文を作成すると、自動的にトーク内にアンカーが作成されるよ。
+
+＊ファイルイベントツリー
+：\_q■機能解説 / 表示＞ファイルイベントツリー\_q
+
+辞書ファイルと辞書の項目をツリー形式で表示する機能だよ。
+項目をクリックすると、単語群・文リストにその項目の一覧が表示されるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%D5%A5%A1%A5%A4%A5%EB%A5%A4%A5%D9%A5%F3%A5%C8%A5%C4%A5%EA%A1%BC]
+\![*]\q[使ってみたい,OnUseSatolist,file_event_tree]\x
+
+＊SHIORIイベントリファレンス
+：\_q■機能解説 / 表示＞SHIORIイベントリファレンス\_q
+
+編集中のSHIORIイベントのリファレンスを確認できる機能だよ。
+
+\![*]\q[使ってみたい,OnUseSatolist,shiori_event_reference]\x
+
+＊単語群・文リスト
+：\_q■機能解説 / 表示＞単語群・文リスト\_q
+
+ファイルイベントツリーで項目を選択するとその一覧が表示されるよ。
+ダブルクリックするとイベントエディタが開いて編集できるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%C3%B1%B8%EC%B7%B2%A1%A6%CA%B8%A5%EA%A5%B9%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,event_list]\x
+
+＊参照リスト
+：\_q■機能解説 / 表示＞参照リスト\_q
+
+イベントエディタで編集しているイベントのジャンプ先なんかを表示する機能だよ。
+単語群・文リストのようにダブルクリックするとイベントエディタが開いて編集できるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%BB%B2%BE%C8%A5%EA%A5%B9%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,reference_list]\x
+
+＊ゴーストプロパティ
+：\_q■機能解説 / 表示＞ゴーストプロパティ\_q
+
+ゴーストの設定ファイル「descript.txt」を分かりやすく表形式で編集する機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%B4%A1%BC%A5%B9%A5%C8%A5%D7%A5%ED%A5%D1%A5%C6%A5%A3]
+\![*]\q[使ってみたい,OnUseSatolist,ghost_property]\x
+
+＊SAORIリスト
+：\_q■機能解説 / 表示＞SAORIリスト\_q
+
+ゴーストに仕様するSAORIを設定するための機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2FSAORI%A5%EA%A5%B9%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,saori_list]\x
+
+＊セーブデータ初期化リスト
+：\_q■機能解説 / 表示＞セーブデータ初期化リスト\_q
+
+ここに変数を設定しておくと、変数が存在しないときに自動的に変数を作成してくれるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%BB%A1%BC%A5%D6%A5%C7%A1%BC%A5%BF%BD%E9%B4%FC%B2%BD%A5%EA%A5%B9%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,default_savedata]\x
+
+＊文字置換リスト
+：\_q■機能解説 / 表示＞文字置換リスト\_q
+
+入れ替えたい文字を設定しておくと、自動的に入れ替えてくれる機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%CA%B8%BB%FA%C3%D6%B4%B9%A5%EA%A5%B9%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,replace_list]\x
+
+＊characters.ini
+：\_q■機能解説 / 表示＞characters.ini\_q
+
+表示キャラクターごとの固有設定ができるよ。
+複数キャラクターがいる場合に有効な機能だね。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2Fcharacters.ini]
+\![*]\q[使ってみたい,OnUseSatolist,characters]\x
+
+＊インストール設定
+：\_q■機能解説 / 表示＞インストール設定\_q
+
+ゴーストがインストールされるときの設定ができるよ。
+インストールするフォルダ名とかはここで決めよう。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%A4%A5%F3%A5%B9%A5%C8%A1%BC%A5%EB%C0%DF%C4%EA]
+\![*]\q[使ってみたい,OnUseSatolist,install]\x
+
+＊更新除外設定
+：\_q■機能解説 / 表示＞更新除外設定\_q
+
+ゴーストの更新やnarの作成に含めないようにしたいファイルや、
+ユーザさんのゴーストから削除したいファイルはここで指定できるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%B9%B9%BF%B7%BD%FC%B3%B0%C0%DF%C4%EA]
+\![*]\q[使ってみたい,OnUseSatolist,developer_options]\x
+
+＊検索
+：\_q■機能解説 / 表示＞検索\_q
+
+辞書内をまとめて検索する機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%B8%A1%BA%F7%A1%A6%B8%A1%BA%F7%B7%EB%B2%CC]
+\![*]\q[使ってみたい,OnUseSatolist,search_window]\x
+
+＊サーフェスビューワ
+：\_q■機能解説 / 表示＞サーフェスビューワ\_q
+
+ゴーストのサーフェスをさとりすとから確認できる機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%B5%A1%BC%A5%D5%A5%A7%A5%B9%A5%D3%A5%E5%A1%BC%A5%EF]
+\![*]\q[使ってみたい,OnUseSatolist,surface_viewer]\x
+
+＊サーフェスパレット
+：\_q■機能解説 / 表示＞サーフェスパレット\_q
+
+ゴーストのサーフェスをサムネイル形式で確認できる機能だよ。
+上手く顔を映すにはシェルの設定ファイルsurfaces.txtの設定が必要になるかも。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%B5%A1%BC%A5%D5%A5%A7%A5%B9%A5%D1%A5%EC%A5%C3%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,surface_palette]\x
+
+＊さわり判定座標の作成
+：\_q■機能解説 / 表示＞さわり判定座標の作成\_q
+
+サーフェスビューワと組み合わせて、さわり判定座標を作成できる機能だよ。
+surfaces.txt を直接編集することになるから、surfaces.txt の知識が必要かも。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A4%B5%A4%EF%A4%EA%C8%BD%C4%EA%BA%C2%C9%B8%A4%CE%BA%EE%C0%AE]
+\![*]\q[使ってみたい,OnUseSatolist,collision]\x
+
+＊挿入パレット
+：\_q■機能解説 / 表示＞挿入パレット\_q
+
+アイテムをダブルクリックするとイベントエディタやテキストエディタに文字列を挿入できるよ。
+表示する内容は挿入メニューのカスタマイズで変更できるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%C1%DE%C6%FE%A5%D1%A5%EC%A5%C3%A5%C8]
+\![*]\q[使ってみたい,OnUseSatolist,insert_palette]\x
+
+＊辞書フォルダの変更
+：\_q■機能解説 / 辞書\_q
+
+ファイルイベントツリーや検索機能で表示する対象の辞書フォルダを指定できるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%BC%AD%BD%F1]
+\![*]\q[使ってみたい,OnUseSatolist,dictionary_folder]\x
+
+＊新しい項目
+：\_q■機能解説 / 新しい項目\_q
+
+辞書ファイルに新しい項目を追加できるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%BF%B7%A4%B7%A4%A4%B9%E0%CC%DC]
+\![*]\q[使ってみたい,OnUseSatolist,new_talk]\x
+
+＊れしばイベントログ
+：\_q■機能解説 / デバッグ＞れしばイベントログ\_q
+
+発生するイベントに対してゴーストの動作を確認するツールだよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%A5%C7%A5%D0%A5%C3%A5%B0]
+\![*]\q[使ってみたい,OnUseSatolist,event_log]\x
+
+＊イベントを送信
+：\_q■機能解説 / デバッグ＞イベントを送信\_q
+
+ゴーストにさとりすとからイベントを発生させて、ゴーストの動作をチェックする機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%A5%C7%A5%D0%A5%C3%A5%B0]
+\![*]\q[使ってみたい,OnUseSatolist,send_event]\x
+
+＊起動している編集中のゴーストを操作
+：\_q■機能解説 / デバッグ＞起動している編集中のゴーストを操作\_q
+
+ゴーストを起動した状態でさとりすとからリロードさせたり変数の設定や確認ができる機能だよ。
+使うのには前準備が必要になるから、詳しくはさとりすとwikiをチェックしてみてね。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%A5%C7%A5%D0%A5%C3%A5%B0]\x
+
+
+＊各種設定
+：\_q■機能解説 / オプション＞各種設定\_q
+
+さとりすとの設定を変更を変更できるよ。
+色々試して自分にあった設定をみつけよう。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%A5%AA%A5%D7%A5%B7%A5%E7%A5%F3]
+\![*]\q[使ってみたい,OnUseSatolist,settings]\x
+
+＊イベントエディタのフォント
+：\_q■機能解説 / オプション＞イベントエディタのフォント\_q
+
+イベントエディタとかテキストエディタの文字が見難いと感じたら大きさやフォントをここで変えてみてね。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%A5%AA%A5%D7%A5%B7%A5%E7%A5%F3]
+\![*]\q[使ってみたい,OnUseSatolist,editor_font]\x
+
+＊挿入メニューのカスタマイズ
+：\_q■機能解説 / オプション＞挿入メニューのカスタマイズ
+
+挿入パレットや、テキストエディタ・イベントエディタの右クリックの「挿入」で表示する内容をカスタマイズできるよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%A5%AA%A5%D7%A5%B7%A5%E7%A5%F3]\x
+
+＊更新ファイル作成
+：\_q■機能解説 / 更新＞更新ファイル作成
+
+ゴーストのネットワーク更新に必要なuptates.txtやupdates2.dauを作成するよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B9%B9%BF%B7]\x
+
+＊narファイル作成
+：\_q■機能解説 / 更新＞narファイル作成
+
+ゴーストの配布に使用するnarファイルを作成するよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B9%B9%BF%B7]\x
+
+＊さとりすとwiki
+：\_q■ウェブサイト / さとりすとwiki
+
+さとりすとの公式解説wikiだよ。
+わからないことがあったらここをチェックしたり、伝言板で質問したりしてみよう。
+
+\![*]\q[さとりすとwikiを開く,http://wikiwiki.jp/satolist/]\x
+
+＊里々wiki
+：\_q■ウェブサイト / 里々wiki
+
+さとりすとで扱う言語「里々」のwikiだよ。
+書き方とかはこっちをチェックしよう。
+
+\![*]\q[里々wikiを開く,http://soliton.sub.jp/satori/]\x
+
+＊バージョン情報
+：\_q■機能解説 /ヘルプ＞バージョン情報\_q
+
+さとりすとの「バージョン」を確認できるよ。
+最新版でなければ更新するのがおすすめ。
+
+\![*]\q[使ってみたい,OnUseSatolist,version]\x
+
+＊イベントエディタ
+：\_q■機能解説 / イベントエディタ\_q
+
+単語群や文の単位で編集できる機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%A4%A5%D9%A5%F3%A5%C8%A5%A8%A5%C7%A5%A3%A5%BF]
+
+
+＊テキストエディタ
+：\_q■機能解説 / テキストエディタ\_q
+
+リスト化を解除した里々の辞書ファイルや里々の辞書以外のファイルをテキスト形式で編集する機能だよ。
+
+\![*]\q[さとりすとwikiの項目を見る,http://wikiwiki.jp/satolist/?%B3%C6%A5%A6%A5%A4%A5%F3%A5%C9%A5%A6%A4%CE%B2%F2%C0%E2%2F%A5%C6%A5%AD%A5%B9%A5%C8%A5%A8%A5%C7%A5%A3%A5%BF]
+
+＊スタートメニュー
+：\_q■機能解説 / スタートメニュー\_q
+
+さとりすとを起動した時に一番最初に表示されるメニューだよ。
+最近編集したゴーストなんかはここに表示されるから、すぐに開けるよ。
+
+\![*]\q[使ってみたい,OnUseSatolist,start_menu]\x
+
+＊もうひとつつくってみたい
+＞イベントをもうひとつ作る

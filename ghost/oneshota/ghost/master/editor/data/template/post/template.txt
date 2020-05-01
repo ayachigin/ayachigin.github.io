@@ -1,0 +1,7 @@
+satolist_template
+name,ポストと狛犬とテンプレート
+craftman,あーるでぃー・ななっち
+check_default,1
+check_dic_Caption.txt,0
+check_dic_ExEvent.txt,0
+check_dic_SAORItest.txt,0

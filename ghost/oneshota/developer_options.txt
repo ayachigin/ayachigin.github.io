@@ -1,0 +1,9 @@
+ghost\master\editor\satori_editor_temp,nonar,noupdate
+ghost\master\editor\settings,nonar,noupdate
+ghost\master\satori_savebackup.txt,nonar,noupdate
+ghost\master\satori_savedata.txt,nonar,noupdate
+ghost\master\satorite.exe,nonar,noupdate
+ghost\master\editor\,nonar,noupdate
+.git\,nonar,noupdate
+.gitignore,nonar,noupdate
+ghost/master/dic_satolist.txt,nonar,noupdate

@@ -1,0 +1,15 @@
+charset,Shift_JIS
+
+type,shell
+name,master
+id,mituami
+
+craftman,sansyouuo
+craftmanw,ŽRž£‹›
+craftmanurl,http://eatuka.web.fc2.com/
+
+sakura.balloon.offsetx,-30
+sakura.balloon.offsety,100
+kero.balloon.offsetx,-150
+kero.balloon.offsety,-100
+
