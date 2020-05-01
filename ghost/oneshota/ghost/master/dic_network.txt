@@ -21,8 +21,13 @@ https://ayachigin.github.io/ghost/oneshota
 
 ＃OnUpdateBegin イベントの後で、更新ファイルが見つかった時に発生するイベントです。
 ＊OnUpdateComplete
-：これで全部だね。
-：【更新成功】
+＞更新（R0）
+
+＊更新none
+：なにもなかった
+
+＊更新changed
+：なんかあったよ
 
 
 ＃ネットワーク更新が完了した時に発生するイベントです。

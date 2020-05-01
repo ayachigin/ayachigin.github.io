@@ -6,4 +6,4 @@ homeurl,https://ayachigin.github.io/ghost/oneshota/
 update_result,OK(0)
 firstboot,641631794
 commitmemorysize,2828580
-lastboot,641637733
+lastboot,641638584
