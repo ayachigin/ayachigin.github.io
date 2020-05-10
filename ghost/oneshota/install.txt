@@ -1,5 +1,4 @@
-charset, Shift_JIS
-type,ghost
-name,Ç®ÇÀÇµÇÂÇΩÇ≤Å[Ç∑Ç∆
-directory,oneshota
-robots,noindex
+Charset,UTF-8
+type,shell
+name,tsuika
+directory,tsuika
