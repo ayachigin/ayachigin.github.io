@@ -1,5 +1,5 @@
 charset, Shift_JIS
 type,ghost
-name,ï¿½ï¿½ï¿½Ë‚ï¿½ï¿½å‚½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½
+name,‚¨‚Ë‚µ‚å‚½‚²[‚·‚Æ
 directory,oneshota
 robots,noindex
