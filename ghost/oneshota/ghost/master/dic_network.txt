@@ -26,8 +26,10 @@ https://ayachigin.github.io/ghost/oneshota
 ＊更新none
 ：なにもなかった
 
+
 ＊更新changed
 ：なんかあったよ
+：【更新成功しました】
 
 
 ＃ネットワーク更新が完了した時に発生するイベントです。
