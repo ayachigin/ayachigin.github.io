@@ -1,4 +1,5 @@
-Charset,UTF-8
-type,shell
-name,tsuika
-directory,tsuika
+charset, Shift_JIS
+type,ghost
+name,���˂��傽���[����
+directory,oneshota
+robots,noindex

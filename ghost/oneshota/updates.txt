@@ -1,7 +1,6 @@
 file,delete.txt6644a268e0858113cb5cb656281974b4size=1312
-file,descript.txt075e58c065c50d69c39b0e3873516e58size=956
 file,developer_options.txt0738d5d812dd8421bf05256736da7e48size=403
-file,install.txtca0d116862b25b8b4dbeced8484118basize=58
+file,install.txt1107793f93ddf92a3973b306ae825eedsize=115
 file,readme.txt0f64a6c2fc50205b77c82ec0844d6f52size=730
 file,ghost/master/descript.txt1ea1e869777ec67d435ca6228101fd8esize=655
 file,ghost/master/dicAnchor.txta805304a582d3f3e12d722a156a9ecfasize=11122
