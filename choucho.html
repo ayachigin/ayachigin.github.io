@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hachimitsu Session - 蝶々 ～ 適当テンプレート言語 ～</title>
+
+    <!-- web font -->
+    <link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+
+    <!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-37331241-3', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="./js/tracking.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/default.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header container">
+        <h1><a href="./">Hachimitsu Session</a>　<small>蝶々 ～ 適当テンプレート言語 ～</small></h1>
+      </header>
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="./">Home</a> </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">MMD<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="mmd_arianne.html">【MMDモデル】アリアンナさん</a></li>
+              <li><a href="mmd_urako.html">【MMDモデル】裏子たゃん</a></li>
+              <li><a href="mmd_yumeko.html">【MMDモデル】夢子ちゃん</a></li>
+            </ul>
+          </li>
+          <li><a href="./music.html">Music</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Software<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="tourabu.html">とうらぶえくすてんしょん【chrome拡張機能】</a></li>
+              <li><a href="auto-save.html">Win 自動保存【お絵かき支援ツール】</a></li>
+              <li><a href="auto-save-mac.html">Mac 自動保存【お絵かき支援ツール】</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="/archive.html">Archive</a></li> -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">伺か<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="ukagaka_arianne.html">【追加シェル】長く短い夏【アリアドネの糸】</a></li>
+            </ul>
+          </li>
+        </ul></div>
+      </nav>
+
+      <section class="container-fluid">
+        <div class="row">
+    <article class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+      <h2 id="蝶々---choucho">蝶々 - Choucho</h2>
+<p>蝶々は里々に似ているキャラクターのトークを書くのに特化した言語です。</p>
+<h2 id="使い方">使い方</h2>
+<h3 id="ランダムトーク">ランダムトーク</h3>
+<p>話しかけられたときに、何も返せるトークがなかった場合はランダムトークのなかのどれかが返されます。</p>
+<p>全角の”＊”のあと改行してその下のテキストはトークになります。</p>
+<pre><code>＊
+ランダムトーク
+</code></pre>
+<h3 id="リプライトーク">リプライトーク</h3>
+<p>話しかけられたキーワードに返答するトークを書くことができます。<br> 全角の”＊「”のあとにキーワードを書き、改行したその下のテキストはトークになります。 キーワードはスペースで区切って複数指定することができます。</p>
+<pre><code>＊「こんにちは 今日は
+こんにちは！
+</code></pre>
+<h3 id="ラベル付きトーク">ラベル付きトーク</h3>
+<p>他のトークから呼び出して使用できます。 全角の”＊”のあとにラベル名を書き、改行したその下のテキストはトークになります。</p>
+<pre><code>＊ラベル付きトーク
+ラベルの付いたトークです
+</code></pre>
+<h3 id="選択肢">選択肢</h3>
+<p>他のトークから呼び出して使用できます。 全角の”？”のあとにラベル名(省略不可)<br> 次の行に選択肢と共に表示されるテキスト(省略不可)(最大160文字)<br> 次の行に全角の”＿”のあとに選択肢と選択ラベル<br> 選択肢と選択ラベルの間はスペースで区切ってください。</p>
+<pre><code>？選択肢のラベル
+選択肢と一緒に表示されるテキスト。（省略不可）
+＿選択肢１  選択ラベル１
+</code></pre>
+<h3 id="ジャンプ">ジャンプ</h3>
+<p>トークから他のラベル付きトークや選択肢を呼び出すにはジャンプを使います。<br> この例では、ランダムトークで「他のトークにジャンプします」と喋ったあと、ジャンプ先からまた感想の選択肢に飛び、ユーザが選択したものの結果によって感想が表示されます。</p>
+<pre><code>＊
+他のトークにジャンプします
+＞ジャンプ先
+
+＊ジャンプ先
+ジャンプしました！
+＞感想
+
+？感想
+いかがでしたか？
+＿とてもよい   感想とてもよい
+＿わるい       感想わるい
+
+＊感想とてもよい
+ありがとうございます！
+
+＊感想わるい
+そうですか……残念です。
+</code></pre>
+<h3 id="単語群">単語群</h3>
+<p>単語のリストに名前をつけて呼び出すことができます。 単語群は全角の”＠”のあとにラベル名をを書き、改行したその下は１行に１単語を書けます。<br> 呼び出すときには全角の括弧を使います。</p>
+<pre><code>＠食べ物
+カレー
+ラーメン
+ハンバーグ
+
+＊
+好きな食べ物ですか？
+うーん……（食べ物）ですかね……
+</code></pre>
+<h3 id="特殊イベント">特殊イベント</h3>
+<p>特殊なイベントのために最初から決められているラベル付きトークです。</p>
+<h4 id="onjoin">OnJoin</h4>
+<p>ユーザに友達に追加されたときに発生します。発生するはずなんですけど現在うまく動かないです。なぜ……</p>
+<pre><code>＊OnJoin
+ともだち登録ありがとうございます！
+</code></pre>
+<h3 id="仕様">仕様</h3>
+<p>スペースで区切るって書いてあるところはすべて１つ以上の半角スペース、全角スペース、タブを使えます。</p>
+    </article>
+</div>
+
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <article class="col-xs-6">
+            <p>
+              <h3>あやちぎん</h3>
+              <img src="images/doticon.png" alt="あやちぎんのアイコン" class="img-thumbnail"><br>
+              <br>
+              音楽作ったり絵を描いたりプログラミングしたりするひと<br>
+
+            </p>
+          </article>
+          <article class="col-xs-6">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="https://twitter.com/AyachiGin">Twitter</a></li>
+              <li><a href="https://soundcloud.com/yachiin">SoundCloud</a></li>
+              <li><a href="http://www.pixiv.net/member.php?id=2672548">Pixiv</a></li>
+              <li><a href="https://www.youtube.com/channel/UCIcLYCFQBB-4QOxI2aLWc-Q">YouTube</a></li>
+            </ul>
+          </article>
+        </div>
+        <p class="text-muted">Site proudly generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
