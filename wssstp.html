@@ -52,7 +52,8 @@
           <li><a href="./music.html">Music</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Software<b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="tourabu.html">とうらぶえくすてんしょん【chrome拡張機能】</a></li>
+              <li><a href="neutrino-helper.html">NEUTRINO HELPER</a></li>
+              <li><a href="ijk.html">IRIAM楽曲報告ツール</a></li>
               <li><a href="auto-save.html">Win 自動保存【お絵かき支援ツール】</a></li>
               <li><a href="auto-save-mac.html">Mac 自動保存【お絵かき支援ツール】</a></li>
             </ul>
@@ -71,12 +72,12 @@
     <article class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
       <h2 id="websocketsstp">WebSocketSSTP</h2>
 <p>JavaScriptからSSPに通知を送れるようになるプラグインです。</p>
-<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> port <span class="op">=</span> port <span class="op">||</span> <span class="dv">55432</span><span class="op">;</span>
-<span class="kw">var</span> connection <span class="op">=</span> <span class="kw">new</span> <span class="at">WebSocket</span>(<span class="st">'ws://'</span> <span class="op">+</span> HOST <span class="op">+</span> port <span class="op">+</span> <span class="st">'/notify'</span>)<span class="op">;</span>
-
-<span class="va">connection</span>.<span class="at">onopen</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{</span>
-    <span class="va">connection</span>.<span class="at">send</span>(<span class="st">''</span>)<span class="op">;</span>
-<span class="op">};</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> port <span class="op">=</span> port <span class="op">||</span> <span class="dv">55432</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">var</span> connection <span class="op">=</span> <span class="kw">new</span> <span class="bu">WebSocket</span>(<span class="st">'ws://'</span> <span class="op">+</span> HOST <span class="op">+</span> port <span class="op">+</span> <span class="st">'/notify'</span>)<span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>connection<span class="op">.</span><span class="at">onopen</span> <span class="op">=</span> <span class="kw">function</span> () {</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    connection<span class="op">.</span><span class="fu">send</span>(<span class="st">''</span>)<span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
 <p><img src="./images/Snap 2015-02-22 at 21.45.10.png" alt="通知機能の設定画面" class="img-rounded"></p>
 <p>通知はディスプレイの右下に表示されます。 通知が表示されたときに通知音を鳴らすことも出来ます。</p>
 <p><img src="./images/Snap 2015-02-08 at 13.47.48.png" alt="通知機能の動作画面" class="img-rounded"></p>
