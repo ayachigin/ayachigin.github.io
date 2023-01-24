@@ -1,15 +1,28 @@
-h1, h2, h3, h4, h5 {
-    text-shadow: 0 0 1px #666;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-shadow: 0 0 1px #666;
 }
 
 h1 a {
-    color: #333;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.4em;
 }
 
 /* fix image */
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+img.icon {
+  width: 64px;
+  height: 64px;
 }
 
 /* Sticky footer styles
@@ -18,10 +31,12 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 280px;
 }
+
 .footer {
   color: #777;
   position: absolute;
@@ -46,10 +61,15 @@ body {
   max-width: 960px;
   padding: 0 15px;
 }
+
 .container .text-muted {
   text-align: center;
 }
 
 .container .youtube-iframe {
   height: 315px;
+}
+
+div.row>article {
+  margin-bottom: 30px;
 }
